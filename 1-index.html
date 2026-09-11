@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Roniin">
+<title>Roniin</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #0b0b0b; color: #fff; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 24px;
+  }
+  .wrap { max-width: 620px; margin: 0 auto; padding: 112px 0 120px; text-align: center; }
+  .logo { display: inline-block; width: 264px; height: auto; }
+  .claim {
+    margin-top: 72px;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #f2f2f2;
+  }
+  .contact {
+    display: inline-block;
+    margin-top: 96px;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 3px;
+  }
+  .contact:hover { opacity: .65; }
+  footer {
+    margin-top: 28px;
+    font-size: 12px;
+    color: #8a8a8a;
+  }
+  @media (max-width: 600px) {
+    .wrap { padding: 72px 0 88px; }
+    .logo { width: 220px; }
+    .claim { font-size: 19px; margin-top: 56px; }
+    .contact { margin-top: 72px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <img class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAhAAAABACAMAAAB8z75lAAAAn1BMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8Kd3m4AAAANHRSTlMAYCDx4EAwEFCQgHD798EF1BoJ6SUDFCru5M53N8gOhlWzmaA8p07arGtZRAtkuLzdjDNJzbvehAAACGxJREFUeNrc2ut6mkAQgOERUYuyIgiIigeM50NMzdz/tTWNO2rT6O5gHkC/f32qRvAFll3gm+I2fmSAXu4APyrB/Y3N72o1Z/W1D/fkxI3JfhEJRNFuJdauAylqmcd2oJF7fO0YVNWP2wg6dczPYlC2MY8tDNCodHzx9f8XyABx6OJPgSjh9bqTDaRruHst45fas7kDzOhDhA5OAzX3ioV/K4NOVfysAsp+oawZgLoGfgbfF/xGZIBYC8wExEeLnQPs4pnAb4ssIx0IHDiPAwL794IYviIDRDBCzAIEkZgCr+ker2e/+DwQVP2BQIjqfSD8BTJADBPMCAQ1AkbuDG8nRl4aEHb8OCCw5dwDYhMhA4TfwqxB4Eug/3FlvCzqDfbNQUvgZWbMAUEtto8DAn/fAaJhIwME6flpEFXjIn86ri/beM4CvbYzPGU365UQZMb77wvIdp8DgprkCWLKA4GVtCCcFzoAtECspB7zp0HU4L/iiUBqDjoZLaTe+i58qWOVkVp6fBA4zw2E3QAmCLOWDkQ4oOt0RQOEM8FjiZEBCICQtGLXA3V+9/Ty7+9NaqMyyvZDPoh2mBOI9hS4IPAlFYiDKQdaa9AAETbpChXUMgEBUKLrWYPjwbrKx01Q1vT0QdB2J/mAGLjAAEGH+DgFiLGQ9GPQAFElPSWArEDAjsbNoCp8w4+Ux9NO0K8baIOoWzRoygPExAEOiKncD5HLBlFHacoFNYhLPRmCABom+nC7gA7jnuJ4mrbpKqkPwpODk7KROYhOCYAFojqVZ9VXLoglHpt5oAGiQfvbgExBGHLzVnCzs+6h9qVlow0CDjbNCmcH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" alt="Roniin">
+    <p class="claim">A Venture Studio</p>
+    <a class="contact" href="https://www.linkedin.com/in/ipaullee">Contact</a>
+    <footer>&copy; 2026 Roniin, LLC</footer>
+  </div>
+</body>
+</html>
